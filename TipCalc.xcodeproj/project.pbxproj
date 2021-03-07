@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		152D1F38255EBEAD003D9BB5 /* AmountEditField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152D1F37255EBEAD003D9BB5 /* AmountEditField.swift */; };
+		15874AD4255AA24B0056CDD7 /* ResultValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15874AD3255AA24B0056CDD7 /* ResultValueView.swift */; };
+		15C249A2255C810400B2340C /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C249A1255C810400B2340C /* UserDefault.swift */; };
 		15D3076B255997AE00F191F6 /* TipCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3076A255997AE00F191F6 /* TipCalcApp.swift */; };
-		15D3076D255997AE00F191F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3076C255997AE00F191F6 /* ContentView.swift */; };
+		15D3076D255997AE00F191F6 /* TipCalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3076C255997AE00F191F6 /* TipCalcView.swift */; };
 		15D3076F255997B000F191F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D3076E255997B000F191F6 /* Assets.xcassets */; };
 		15D30772255997B000F191F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15D30771255997B000F191F6 /* Preview Assets.xcassets */; };
 		15D3077D255997B100F191F6 /* TipCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D3077C255997B100F191F6 /* TipCalcTests.swift */; };
 		15D30788255997B100F191F6 /* TipCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D30787255997B100F191F6 /* TipCalcUITests.swift */; };
+		15D30799255997E300F191F6 /* TipCalcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D30798255997E300F191F6 /* TipCalcModel.swift */; };
+		15D307A12559984900F191F6 /* TipCalcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15D307A02559984900F191F6 /* TipCalcViewModel.swift */; };
+		6E69BDB307E12DE055E75887 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E69B4EEE32B48673F6F95B3 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		152D1F37255EBEAD003D9BB5 /* AmountEditField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountEditField.swift; sourceTree = "<group>"; };
+		15874AD3255AA24B0056CDD7 /* ResultValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultValueView.swift; sourceTree = "<group>"; };
+		15C249A1255C810400B2340C /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
 		15D30767255997AE00F191F6 /* TipCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D3076A255997AE00F191F6 /* TipCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcApp.swift; sourceTree = "<group>"; };
-		15D3076C255997AE00F191F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		15D3076C255997AE00F191F6 /* TipCalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcView.swift; sourceTree = "<group>"; };
 		15D3076E255997B000F191F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15D30771255997B000F191F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		15D30773255997B000F191F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +54,9 @@
 		15D30783255997B100F191F6 /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15D30787255997B100F191F6 /* TipCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcUITests.swift; sourceTree = "<group>"; };
 		15D30789255997B100F191F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15D30798255997E300F191F6 /* TipCalcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcModel.swift; sourceTree = "<group>"; };
+		15D307A02559984900F191F6 /* TipCalcViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalcViewModel.swift; sourceTree = "<group>"; };
+		6E69B4EEE32B48673F6F95B3 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15702BA62563B929004D24CD /* Colntrols */ = {
+			isa = PBXGroup;
+			children = (
+				15874AD3255AA24B0056CDD7 /* ResultValueView.swift */,
+				152D1F37255EBEAD003D9BB5 /* AmountEditField.swift */,
+			);
+			path = Colntrols;
+			sourceTree = "<group>";
+		};
+		15C249A9255C854200B2340C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				15C249A1255C810400B2340C /* UserDefault.swift */,
+				6E69B4EEE32B48673F6F95B3 /* Colors.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		15D3075E255997AE00F191F6 = {
 			isa = PBXGroup;
 			children = (
@@ -95,8 +125,12 @@
 		15D30769255997AE00F191F6 /* TipCalc */ = {
 			isa = PBXGroup;
 			children = (
+				15C249A9255C854200B2340C /* Helpers */,
+				15702BA62563B929004D24CD /* Colntrols */,
 				15D3076A255997AE00F191F6 /* TipCalcApp.swift */,
-				15D3076C255997AE00F191F6 /* ContentView.swift */,
+				15D3076C255997AE00F191F6 /* TipCalcView.swift */,
+				15D307A02559984900F191F6 /* TipCalcViewModel.swift */,
+				15D30798255997E300F191F6 /* TipCalcModel.swift */,
 				15D3076E255997B000F191F6 /* Assets.xcassets */,
 				15D30773255997B000F191F6 /* Info.plist */,
 				15D30770255997B000F191F6 /* Preview Content */,
@@ -259,8 +293,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15D3076D255997AE00F191F6 /* ContentView.swift in Sources */,
+				15D3076D255997AE00F191F6 /* TipCalcView.swift in Sources */,
+				152D1F38255EBEAD003D9BB5 /* AmountEditField.swift in Sources */,
+				15D307A12559984900F191F6 /* TipCalcViewModel.swift in Sources */,
+				15D30799255997E300F191F6 /* TipCalcModel.swift in Sources */,
 				15D3076B255997AE00F191F6 /* TipCalcApp.swift in Sources */,
+				15C249A2255C810400B2340C /* UserDefault.swift in Sources */,
+				15874AD4255AA24B0056CDD7 /* ResultValueView.swift in Sources */,
+				6E69BDB307E12DE055E75887 /* Colors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -402,7 +442,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,7 +470,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = local.romanpospelov.TipCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -452,7 +492,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = local.romanpospelov.TipCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
